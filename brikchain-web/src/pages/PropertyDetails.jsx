@@ -107,7 +107,7 @@ const PropertyDetails = () => {
         <div className="mt-6">
           <button
             className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600"
-            onClick={() => alert(Buy tokens for ${property.Name})}
+            onClick={() => alert(`Buy tokens for ${property.Name}`)}
           >
             Buy Tokens
           </button>
@@ -120,7 +120,7 @@ const PropertyDetails = () => {
         
           <button
             className="bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-red-600"
-            onClick={() => alert(Sell tokens for ${property.Name})}
+            onClick={() => alert(`Sell tokens for ${property.Name}`)}
           >
             Sell Tokens
           </button>
